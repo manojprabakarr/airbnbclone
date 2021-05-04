@@ -1,0 +1,95 @@
+.header{
+    
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;    
+    position: sticky;
+    top: 0%;
+
+}
+
+.headerleft{
+    align-items: center;
+}
+
+.headerleft {
+    display: flex;
+    flex: 1;
+    max-width: fit-content;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+  }
+
+  
+.headerleft > input {
+    border: none;
+    width: 250px;
+    padding: 10px;
+    outline: none;
+    font-family:ubuntu;
+  }
+
+.headericon{
+    height: 60px;
+    margin-left: 80px;
+    
+    object-fit: contain;
+}
+
+.headerright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 15vw;
+    margin-right: 80px;
+}
+.headerright2{
+    display: flex;
+    flex: 1;
+    max-width: fit-content;
+    height: 25px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+
+}
+
+.headerhover{
+    margin-top: 30px;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    float: right;
+    margin-right: 100px;
+    max-width: fit-content;
+    
+    height: 160px;
+    padding: 25px;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+   
+
+}
+
+.headerhover >a{
+
+    font-size:medium;
+    line-height: 35px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.headerright2:hover .display{
+    display: block;
+    
+
+}
