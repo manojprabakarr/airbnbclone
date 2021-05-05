@@ -1,0 +1,17 @@
+.searchpageinfo{
+    padding: 20px;
+
+}
+.searchpageinfo>p{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.searchpageinfo>h1{
+    margin-left: 15px;
+    font-weight: 500;
+}
+.searchpageinfo >button{
+   
+  margin-right: 15px;
+  border-radius: 15px;
+}

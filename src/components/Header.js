@@ -4,12 +4,14 @@ import SearchIcon from '@material-ui/icons/Search'
 import LanguageIcon from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import {Avatar} from '@material-ui/core'
+import {Link} from 'react-router-dom';
 
 function Header() {
     return (
         <>
         <div className="header">
-            <img className="headericon" src="https://www.citypng.com/public/uploads/preview/-31600816888bquu10q2fb.png" alt=""/>
+          <Link to="/">
+            <img className="headericon" src="https://img.pngio.com/airbnb-logo-png-logo-black-transparent-airbnb-329-troy-airbnb-png-logo-329_329.png" alt=""/></Link>
 
             <div className="headerleft">
             <input type="text" />

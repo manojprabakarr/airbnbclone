@@ -1,0 +1,48 @@
+.result{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.result>img{
+    width: 25%;
+    border-radius: 15px;
+  
+}
+.resultinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.resultheart{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.resultinfo2 >p{
+    font-weight: 20px;
+    color: grey;
+}
+.resultinfo2>h3{
+    font-weight: 300;
+    color: grey;
+}
+.resultinfo3{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.star{
+    color: red;
+}
+.resultstar{
+    display: flex;
+    align-items: center;
+
+}
+.resultprice{
+    position: absolute;
+    right: 40px;
+  bottom: 20px;
+}
